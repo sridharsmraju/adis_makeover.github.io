@@ -98,7 +98,7 @@ function validate_all_fields() {
     let ph = document.getElementById('form6Example6').value;
     let dig = /[0-9]/;
     console.log(name);
-    re = /^[a-zA-Z]+$/;
+    re = /^[a-zA-Z\s]+$/;
       res=/^\s+$/;
     //
 
