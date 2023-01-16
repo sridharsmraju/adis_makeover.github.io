@@ -99,6 +99,14 @@ function validate_all_fields() {
     let dig = /[0-9]/;
     console.log(name);
     re = /^[a-zA-Z]+$/;
+      res=/^\s+$/;
+    //
+
+    if (name.length == 0 || res.test(name))
+    {
+        alert('Name cannot be empty');
+        return false;
+    }
     //
     if (re.test(name)) {
         console.log('hurray23'); console.log('hurray');
